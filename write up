@@ -1,0 +1,7 @@
+Part 1 Shapefiles
+  Add both shapefiles into ArcMap
+  Use the geoprocessing tool MERGE
+  Input the two layers - statewide and tarrant
+  Result - One shapefile of the entire state
+  
+  
