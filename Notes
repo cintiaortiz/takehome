@@ -1,0 +1,21 @@
+Part 1 Shapefiles
+  Add both shapefiles into ArcMap
+  Use the geoprocessing tool MERGE
+  Input the two layers - statewide and tarrant
+  Result - One shapefile of the entire state
+  
+Part 2 Mapping 
+  Join csv file data to the new state layer
+  In Symbology - Use Quantities- Graduated Colors to display unregistered democrats by precinct 
+  In the future I would use Arcgis Pro or ArcGIS online to create an interactive map in order better visualize areas like Dallas, Houston, Austin etc.
+  
+Part 3 Calculating Centroids
+  I used the Zonal Geometry as Table (Spatial Analyst)
+  This tool calculates the geometry measures (area, perimeter, thickness, and the characteristics of ellipse) for each zone in a dataset and reports the results as a table.
+  Input Zone Layer - State Layer
+  Zone Field - dnc_precin
+  Ouput - csv file 
+
+
+  
+  
